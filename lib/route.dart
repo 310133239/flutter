@@ -1,15 +1,17 @@
 import 'package:flutter/material.dart';
-import 'navigationbar/bottom.dart';
+import 'page/first.dart';
 
 main() {
-  runApp(App());
+  runApp(MyApp());
 }
-class App extends StatelessWidget{
+
+
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '测试',
-      home: BottomButtom()
+      title: "l.n'sAPp",
+      home: First()
     );
   }
 }
